@@ -1,0 +1,11 @@
+# Site settings
+title: Allyson & Nick's Wedding
+email: your-email@domain.com
+description: Nick & Allyson are getting married!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username:
+github_username: HolmstN
+
+# Build settings
+markdown: kramdown
