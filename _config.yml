@@ -33,7 +33,7 @@ author: "Nick Holmstedt"
 title: "Allyson & Nick's Wedding"
 description: "A wedding website for Allyson & Nick"
 keywords: "wedding, jekyll, Nick, Allyson, Holmstedt"
-favicon: "/img/favicon.ico"
+favicon: "/img/heart.ico"
 
 ################
 # Header layout #
@@ -177,7 +177,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Registy: 'registry'
   Timeline: 'timeline'
   Contact: 'contact'
 
