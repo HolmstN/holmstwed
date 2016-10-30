@@ -119,7 +119,7 @@ events:
     description: "At a friend's wedding..."
   - image: "/img/timeline/first_met.jpg"
     date: "March 2013"
-    descrption: "When we first met."
+    description: "When we first met."
 
 # First image of the Timeline
 
