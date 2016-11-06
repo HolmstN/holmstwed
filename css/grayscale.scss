@@ -445,3 +445,9 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+.alt-bg-color {
+  background-color: $alt-color;
+  color: $alt-font-color;
+  padding-bottom: 5em;
+}
