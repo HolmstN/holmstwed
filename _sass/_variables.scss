@@ -4,19 +4,19 @@
 $primary-color: #fff;
 
 // Alt color
-$alt-color: #5720CC;
+$alt-color: #471AA6;
 $alt-font-color: #fff;
 
 // Anchor color
-$secondary-color: #0CC226;
+$secondary-color: #84FF00;
 
 // Font color
 $font-color: #000;
 
-$navbar-text-shadow: true;
-$header-text-shadow: true;
+$navbar-text-shadow: false;
+$header-text-shadow: false;
 $header-background-color: $primary-color;
-$intro-text-color: $font-color;
+$intro-text-color: $alt-font-color;
 $navbar-color: $font-color;
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;

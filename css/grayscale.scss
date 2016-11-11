@@ -166,10 +166,10 @@ a {
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
     .intro-body {
         display: table-cell;
         vertical-align: middle;
