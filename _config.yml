@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "LOVE."
   - text: "SOMETHING COOL"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/engagement-ring.svg"
 
 ##############################
 # Color the browser elements #
@@ -140,7 +140,7 @@ email: "nrholmstedt@gmail.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Nick Holmstedt"
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/engagement-ring.svg"
 
 ##################
 # Social Buttons #
@@ -196,3 +196,5 @@ paginate_path: "blog/page:num/"
 
 sass:
   style: compressed
+
+excerpt_separator: N/A-------N/A
