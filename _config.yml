@@ -56,7 +56,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "LOVE."
-  - text: "SOMETHING COOL"
+  - text: "FOREVER."
 
 me-img: "/img/engagement-ring.svg"
 
@@ -111,19 +111,25 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/heart.ico"
+    date: "June 10, 2017"
+    description: "WEDDING"
   - image: "/img/timeline/proposal.jpg"
     date: "September 17, 2016"
     description: "Proposal!"
   - image: "/img/timeline/kus_wed.jpg"
     date: "August 2016"
     description: "At a friend's wedding..."
+  - image: "/img/timeline/richmond.jpg"
+    date: "July 2016"
+    description: "Moved to Richmond"
   - image: "/img/timeline/first_met.jpg"
     date: "March 2013"
     description: "When we first met."
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/white_house.jpg"
 
 ###########
 # Contact #
