@@ -1,0 +1,17 @@
+
+<!-- About Start -->
+<link rel="import" href="bower_components/awesome-slider/awesome-slider.html">
+<section id="{{ page.section-type }}" class="container content-section text-center">
+
+<h2>Engagement Photos</h1>
+
+  <div class="col-md-10 col-md-offset-1">
+    <awesome-slider pre-image="img/heart.ico" autostart="true" color="#471AA6" bullets="true">
+      {% for pic in site.pics %}
+        <item source={{pic}}></item>
+      {% endfor %}
+    </awesome-slider>
+  </div>
+</section>
+
+<!-- About End -->
