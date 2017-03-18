@@ -70,7 +70,7 @@ apple-status-bar-style: "black"
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
@@ -194,10 +194,11 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  Pics: 'pics'
+  RSVP: 'rsvp'
   Registry: 'registry'
+  Pics: 'pics'
   Timeline: 'timeline'
-  Contact: 'contact'
+
 
 # Exclusion list from the generated _site
 
