@@ -451,3 +451,18 @@ body {
   color: $alt-font-color;
   padding-bottom: 5em;
 }
+
+.rsvp-link {
+  border: 2px solid $secondary-color;
+  border-radius: 15px;
+  padding: .75em;
+  display: inline-block;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  &:hover,
+  &:focus {
+      text-decoration: none;
+      border-color: darken($secondary-color,20%);
+  }
+}
