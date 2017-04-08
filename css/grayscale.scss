@@ -467,15 +467,40 @@ body {
   }
 }
 
-.registry-icon img {
-  display: inline-block;
-  max-width: 300px;
+.registry-icons {
+  display: flex;
+  justify-content: space-around;
+  @media(max-width: 600px) {
+      flex-wrap: wrap;
+  }
+}
 
+.registry-icon {
+  padding: 2em;
+  min-width: 300px;
+}
+
+#rsvp {
+  padding-top: 0
+}
+
+#target-logo {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   &:hover,
   &:focus {
     filter: hue-rotate(-90deg);
+  }
+}
+
+#west-elm-logo {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  filter: grayscale(100%);
+  &:hover,
+  &:focus {
+    filter: grayscale(0%);
   }
 }
